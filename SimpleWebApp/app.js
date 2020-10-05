@@ -6,10 +6,10 @@ var app = new Vue({
     },
     methods: {
         undo() {
-           
+        // belum berfungsi
         },
         redo() {
-
+        // belum berfungsi
         },
         reverse() {
             return this.pesan = this.text;

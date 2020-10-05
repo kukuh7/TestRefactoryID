@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="vue.min.js"></script>
     <title>Simple Web App</title>
 </head>
 <body>
     <div id="app">
+        <h1>Simple Web App</h1>
         <input class="input" type="text" v-model="text" width="150px">
-        <p>Output: {{ pesan }}</p>
+        <h3>Output: {{ pesan }}</h3>
         <button @click="reverse" >Reverse</button>
         <button v-on:click="undo()" v-on:dblclick="redo">Undo/Redo</button>
     </div>
