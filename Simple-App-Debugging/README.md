@@ -1,27 +1,9 @@
 # vue-test-code
 
-## Project setup
+## Yang diperbaiki
 ```
-yarn install
+.catch((error) => { //kondisi awal, error di deklarsikan tapi tidak digunakan.
+  (this.loading = false)
+  .console.log(error) //saya tambahkan .console.log(error) sehingga pesan error "error unused" di muncul lagi.
+  });
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-Expected Output :
-![expected](./src/assets/Expected.png)
